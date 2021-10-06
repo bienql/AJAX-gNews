@@ -1,0 +1,107 @@
+.title {
+    height: 30px;
+}
+div {
+    padding-bottom: 6px;
+}
+.titlebar {
+    background-color: rgb(65, 70, 75);
+    text-align: center;
+    vertical-align: auto;
+    font-weight: bolder;
+    color: white;
+}
+.align-right {
+    text-align: right !important;
+}
+.align-center {
+    text-align: center !important;
+}
+.thumbnail {
+    height: 150px;
+    width: 240px;
+}
+
+a {
+    font-size: medium;
+    font-weight: bold;
+}
+i {
+    font-size: smaller;
+}
+p {
+    font-size: smaller;
+}
+.col-md-8 {
+    text-align: justify;
+}
+/* style icon */
+
+.inner-addon { 
+    position: relative; 
+}
+.inner-addon .fa {
+    position: absolute;
+}
+
+.right-addon .fa {
+    right: 10px;
+    /* top: 0px; */
+}
+footer {
+    text-align: center;
+}
+.modal {
+    position: relative;
+    height: 100%;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.modal_content {
+    background-color: #fff;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+
+}
+#search_button {
+    cursor: pointer;
+    z-index: 999;
+}
+#close_search {
+    cursor: pointer;
+}
+.titlebar{
+    position:relative;
+}
+#search_icon {
+    position:relative;
+    color: white;
+    cursor: pointer;
+    font-size: 130% !important;
+    top: 15px;
+}
+.loading_screen {
+    position: sticky;
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+    top:40%;
+    text-align: center;
+}
+#loading {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 1rem;
+}
+#advanced_search_field {
+    display: none;
+}
+#mynewslogo{
+    position:relative;
+    cursor: pointer;
+    top: 8px;
+}
